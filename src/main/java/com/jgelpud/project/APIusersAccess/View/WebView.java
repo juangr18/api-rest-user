@@ -34,7 +34,7 @@ public class WebView {
     }
 
     @GetMapping("/")
-    public List<Usuario> listUsers(Usuario usuario){
+    public List<Usuario> listUsers(){
         return listUsers.listToDB();
     }
 
